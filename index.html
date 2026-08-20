@@ -1,0 +1,100 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodHub - Food Delivery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <h1>🍔 FoodHub</h1>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div>
+        <h2>Delicious Food Delivered To You</h2>
+        <p>Order your favourite meals from FoodHub.</p>
+
+        <button onclick="orderFood()">Order Now</button>
+    </div>
+</section>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+
+    <div class="food-container">
+
+        <div class="food-card">
+            <h3>🍕 Pepperoni Pizza</h3>
+            <p>Fresh pizza with cheese and pepperoni.</p>
+            <h4>₦8,500</h4>
+            <button onclick="addToCart('Pepperoni Pizza')">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="food-card">
+            <h3>🍔 Beef Burger</h3>
+            <p>Juicy beef burger with fresh vegetables.</p>
+            <h4>₦6,000</h4>
+            <button onclick="addToCart('Beef Burger')">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="food-card">
+            <h3>🍗 Fried Chicken</h3>
+            <p>Crispy fried chicken served hot.</p>
+            <h4>₦7,000</h4>
+            <button onclick="addToCart('Fried Chicken')">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="food-card">
+            <h3>🍝 Spaghetti</h3>
+            <p>Delicious spaghetti with special sauce.</p>
+            <h4>₦5,500</h4>
+            <button onclick="addToCart('Spaghetti')">
+                Add to Cart
+            </button>
+        </div>
+
+    </div>
+</section>
+
+<section id="about">
+    <h2>About FoodHub</h2>
+    <p>
+        FoodHub is a modern food delivery platform designed
+        to connect customers with delicious meals.
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+
+    <p>Email: support@foodhub.com</p>
+    <p>Phone: +234 800 000 0000</p>
+</section>
+
+<footer>
+    <p>© 2026 FoodHub. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
