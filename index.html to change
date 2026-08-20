@@ -1,0 +1,8 @@
+<div class="food-card">
+    <h3>🍚 Jollof Rice</h3>
+    <p>Delicious Nigerian jollof rice with chicken.</p>
+    <h4>₦6,500</h4>
+    <button onclick="addToCart('Jollof Rice')">
+        Add to Cart
+    </button>
+</div>
